@@ -12,6 +12,7 @@
         --bg-heroimg: #b4d0e7;
         --txt-dark: black;
         --txt-light: white;
+        --txt-check: #0c64ff;
         --light-grey: #dfdfe1;
     }
 
@@ -166,12 +167,17 @@
     }
 
     .card-container {
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
+        padding: 20px 0;;
     }
 
     .bsn-card {
         width: calc(100% /12 *3.6);
+    }
+
+    .bsn-car2 {
+        width: 100%;
     }
 
     .bsn-card-title {
@@ -180,22 +186,43 @@
     }
 
     .bsn-card-title, .bsn-card-body {
-        border-top: 1px solid var(--light-grey);
-        border-left: .5px solid var(--light-grey);
-        border-right: .5px solid var(--light-grey);
+        border-top: 2px solid var(--light-grey);
+        border-left: 1px solid var(--light-grey);
+        border-right: 1px solid var(--light-grey);
     }
 
     .bsn-card-body {
-        border-bottom: 1px solid var(--light-grey);
+        padding: 20px 20px;
+        border-bottom: 2px solid var(--light-grey);
+    }
+
+    .price {
+        padding: 10px 0;
     }
 
     .bsn-card-body ul {
         list-style: none;
+        padding-top: 20px;
+    }
+
+    .bsn-card-body li {
+        padding-top: 10px;
+    }
+
+    .bsn-card-body button {
+        margin: 20px 0;
+        padding: 10px 20px;
     }
 
     .bsn-card-body hr {
         width: 30%;
-        margin-left: 10px;
+        margin: 30px;
+        margin-left: 0px;
     }
+
+    .bsn-card-body .fa-check {
+        color: var(--txt-check)
+    }
+
 
 /* #endregion Piano business */
