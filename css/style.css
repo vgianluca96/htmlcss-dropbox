@@ -8,14 +8,38 @@
     }
 
     :root {
+
+        --bg-btn: #0061ff;
+        --bg-heroimg: #b4d0e7;
+        --txt-dark: black;
+        --txt-light: white;
         
     }
 
-    container {
+    .container {
         width: 80%;
         max-width: 1170px;
         margin: auto;
 
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .py-1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .px-1 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
     }
 
 /* #endregion Common */
@@ -38,3 +62,45 @@
     }
 
 /* #endregion Debug */
+
+/* #region Header */
+
+    .h-container, .h-links1, .h-links2 {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dropbox-logo {
+        line-height: 50%;
+    }
+
+    .h-container a {
+        margin: 0 14px;
+        text-decoration: none;
+        color: var(--txt-dark);
+    }
+
+    .h-container a:hover {
+        text-decoration: underline;
+    }
+
+    .h-container button {
+        background-color: var(--bg-btn);
+        color: var(--txt-light);
+        border: none;
+        border-radius: 0;
+        padding: 5px 15px;
+
+    }
+
+/* #endregion Header */
+
+/* #region Hero Image */
+
+.heroimg-container {
+    height: 400px;
+    background-color: var(--bg-heroimg);
+
+}
+
+/* #endregion Hero Image */
