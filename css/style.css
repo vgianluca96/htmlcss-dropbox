@@ -40,6 +40,14 @@
     body {
         font-family: 'Open Sans', sans-serif;
         font-size: 12px;
+        min-width: 1200px;
+    }
+
+    button {
+        background-color: var(--bg-btn);
+        color: var(--txt-light);
+        border: none;
+        border-radius: 0;
     }
 
 /* #endregion Common */
@@ -85,22 +93,40 @@
     }
 
     .h-container button {
-        background-color: var(--bg-btn);
-        color: var(--txt-light);
-        border: none;
-        border-radius: 0;
         padding: 5px 15px;
-
     }
 
 /* #endregion Header */
 
 /* #region Hero Image */
 
-.heroimg-container {
-    height: 400px;
-    background-color: var(--bg-heroimg);
+    .heroimg-container {
+        height: 400px;
+        background-color: var(--bg-heroimg);
+    }
 
-}
+    .heroimg-container2 {
+        flex-wrap: wrap;
+    }
+
+    .heroimg-title {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 32px;
+    }
+
+    .heroimg-par {
+        width: calc(100% /12 *4);
+    }
+
+    .heroimg-img {
+        width: calc(100% /12 *8);
+    }
+
+    .heroimg-img img {
+        width: 90%;
+        
+    }
 
 /* #endregion Hero Image */
