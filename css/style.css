@@ -318,8 +318,19 @@
         padding: 10px 0;
     }
     
-
-    
-
-
 /* #endregion Operazioni Business */
+
+/* #region Team */
+
+    .team-title {
+        font-size: 20px;
+        padding-bottom: 40px;
+        width: 50%;
+    }
+
+    .scopri {
+        padding-bottom: 100px;
+    }
+
+
+/* #endregion Team */
