@@ -253,7 +253,7 @@
 
 /* #endregion Piano business */
 
-/* #region Entra in contatto */
+/* #region Partner Dropbox */
 
     .partner {
         padding-bottom: 100px;
@@ -286,6 +286,40 @@
         box-shadow: -1px 0px 0px 1px;
     }
 
+/* #endregion Partner Dropbox */
+
+/* #region Operazioni Business*/
+
+    .operaz-title {
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+
+    .operaz {
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 100px;
+    }
+
+    .flex-item {
+        width: calc(100% /12 *3.6);
+    }
+
+    .operaz img {
+        width: 90%;
+    }
+
+    .operaz .operaz-card-img {
+        text-align: center;
+    }
+
+    .operaz .operaz-card-title {
+        padding: 10px 0;
+    }
+    
+
+    
 
 
-/* #endregion Entra in contatto */
+/* #endregion Operazioni Business */
