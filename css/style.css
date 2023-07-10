@@ -1,0 +1,40 @@
+
+/* #region Common */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        
+    }
+
+    container {
+        width: 80%;
+        max-width: 1170px;
+        margin: auto;
+
+    }
+
+/* #endregion Common */
+
+/* #region Debug */
+
+    .debug1 {
+        background-color: orange;
+        height: 100px;
+    }
+
+    .debug2 {
+        background-color: lightgreen;
+        height: 400px;
+    }
+
+    .debug3 {
+        background-color: black;
+        height: 100px;
+    }
+
+/* #endregion Debug */
