@@ -10,6 +10,7 @@
     :root {
         --bg-btn: #0061ff;
         --bg-heroimg: #b4d0e7;
+        --bg-btn-light: white;
         --txt-dark: black;
         --txt-light: white;
         --txt-check: #0c64ff;
@@ -153,17 +154,16 @@
 
 /* #endregion Hero Image */
 
-
 /* #region Piano business */
 
     .bsn-title {
         padding-top: 100px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         font-size: 20px;
     }
 
     .radio-btn {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     #annuale {
@@ -174,7 +174,7 @@
         align-items: flex-start;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 20px 0;
+        padding-bottom: 100px;
     }
 
     .bsn-card {
@@ -248,9 +248,44 @@
     }
 
     .bsn-card-body2 .btn2 {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 20px;
+    }
+
+/* #endregion Piano business */
+
+/* #region Entra in contatto */
+
+    .partner {
+        padding-bottom: 100px;
+    }
+
+    .partner .img {
+        width: calc(100% /12 * 7);
+    }
+
+    .partner img {
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .partner .par {
+        width: calc(100% /12 * 5);
+        padding: 20px;
+    }
+
+    .par div {
+        padding: 10px 0;
+    }
+
+    .par button {
+        background-color: var(--bg-btn-light);
+        color: black;
+        border: 1px solid var(--txt-dark);
+        border-radius: 0;
+        padding: 10px 20px;
+        box-shadow: -1px 0px 0px 1px;
     }
 
 
-/* #endregion Piano business */
+
+/* #endregion Entra in contatto */
