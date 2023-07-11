@@ -490,6 +490,7 @@
         padding-right: 20px;
         border-top: 1px solid var(--dark);
         border-bottom: 1px solid var(--dark);
+        transition: all 2s;
     }
 
     .question {
@@ -500,6 +501,7 @@
     .answer {
         display: none;
         padding-top: 20px;
+        transition: all 2s;
     }
 
     .faq-container:hover .answer {
