@@ -490,6 +490,8 @@
         padding-right: 20px;
         border-top: 1px solid var(--dark);
         border-bottom: 1px solid var(--dark);
+        height: 98px;
+        transition: all 1s;
     }
 
     .question {
@@ -498,12 +500,17 @@
     }
 
     .answer {
-        display: none;
+        opacity: 0;
         padding-top: 20px;
+        transition: all 1s;
+    }
+
+    .faq-container:hover {
+        height: 150px;
     }
 
     .faq-container:hover .answer {
-        display: block;
+        opacity: 1;
     }
 
     .fa-chevron-up {
