@@ -27,6 +27,23 @@
         --bg-designit-quote: #f5f5f5;
     }
 
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        min-width: 1100px;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        left: 0;
+        background-color: var(--bg-btn-light);
+    }
+
+/* #endregion Common */
+
+/* #region Utilities */
+
     .container {
         width: 80%;
         max-width: 1170px;
@@ -57,20 +74,15 @@
         position: relative;
     }
 
-    body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 12px;
-        min-width: 1100px;
-    }
-
-    button {
+    .a-btn {
+        display: inline-block;
         background-color: var(--bg-btn);
         color: var(--txt-light);
-        border: none;
-        border-radius: 0;
+        text-decoration: none;
+        padding: 5px 15px;
     }
 
-/* #endregion Common */
+/* #endregion Utilities */
 
 /* #region Debug */
 
@@ -102,18 +114,15 @@
         line-height: 50%;
     }
 
-    .h-container a {
-        margin: 0 14px;
+    .h-container .links a {
+        display: inline-block;
         text-decoration: none;
         color: var(--txt-dark);
+        padding: 16px 14px;
     }
 
-    .h-container a:hover {
-        text-decoration: underline;
-    }
-
-    .h-container button {
-        padding: 5px 15px;
+    .h-container .links a:hover {
+        border-bottom: 1px solid black;
     }
 
 /* #endregion Header */
@@ -140,9 +149,8 @@
         width: calc(100% /12 *3);
     }
 
-    .free-btn {
+    .heroimg-par .a-btn {
         margin: 20px 0;
-        padding: 8px 16px;
     }
 
     .cancel {
@@ -229,11 +237,10 @@
         padding-top: 10px;
     }
 
-    .bsn-card-body .btn {
-        margin: 20px 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .bsn-card-body .a-btn {
         width: 100%;
+        text-align: center;
+        margin: 20px 0;
     }
 
     .bsn-card-body hr {
@@ -288,14 +295,13 @@
     }
 
     .par div {
-        padding: 10px 0;
+        padding: 20px 0;
     }
 
-    .par button {
+    .par .a-btn {
         background-color: var(--bg-btn-light);
         color: black;
         border: 1px solid var(--txt-dark);
-        border-radius: 0;
         padding: 10px 20px;
         box-shadow: -1px 0px 0px 1px;
     }
@@ -421,6 +427,27 @@
     
 /* #endregion Icone clienti */
 
+/* #region Porta Dropbox  */
 
+    .porta-dropbox {
+        background-color: var(--bg-heroimg);
+    }
 
+    .porta-dropbox-cont {
+        padding: 100px 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .porta-dropbox-cont .title {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .porta-dropbox-cont .a-btn {
+        background-color: var(--bg-btn-light);
+        color: var(--txt-dark);
+    }
+
+/* #endregion  */
 
