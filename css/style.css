@@ -15,6 +15,11 @@
         --txt-light: white;
         --txt-check: #0c64ff;
         --light-grey: #dfdfe1;
+        --bg-designit: #a2d39b;
+        --bord-designit: #d1e9cd;
+        --bg-arizona: #61082b;
+        --bg-florida: #0093ce;
+        --bg-topps: #ff1c1c;
     }
 
     .container {
@@ -166,6 +171,10 @@
         padding-bottom: 20px;
     }
 
+    #mensile, #annuale {
+        vertical-align: middle;
+    }
+
     #annuale {
         margin-left: 30px;
     }
@@ -302,8 +311,9 @@
             padding-bottom: 100px;
     }
 
-    .flex-item {
+    .operaz-item {
         width: calc(100% /12 *3.6);
+        padding-bottom: 20px;
     }
 
     .operaz img {
@@ -332,5 +342,54 @@
         padding-bottom: 100px;
     }
 
-
 /* #endregion Team */
+
+/* #region Icone clienti */
+
+    .clients {
+        align-items: center;
+    }
+    
+    .clients-item {
+        width: calc(100% / 12 * 4)
+    }
+
+    .clients-item.lateral {
+        flex-wrap: wrap;
+    }
+
+    .clients-card {
+        width: 50%;
+        aspect-ratio: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .clients-card img {
+        width: 80%;
+    }
+
+    .clients-card.designit {
+        background-color: var(--bg-designit);
+    }
+
+    .clients-card.arizona {
+        background-color: var(--bg-arizona);
+    }
+
+    .clients-card.florida {
+        background-color: var(--bg-florida);
+    }
+
+    .clients-card.topps {
+        background-color: var(--bg-topps);
+    }
+
+
+
+
+/* #endregion Icone clienti */
+
+
+
+
