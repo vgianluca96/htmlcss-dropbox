@@ -449,5 +449,39 @@
         color: var(--txt-dark);
     }
 
-/* #endregion  */
+/* #endregion Porta Dropbox  */
+
+/* #region FAQ  */
+
+    .faq {
+        padding: 100px 0;
+    }
+
+    .faq-title {
+        padding-bottom: 40px;
+        font-size: 20px;
+    }
+
+    .faq-container {
+        padding: 40px 0;
+        padding-right: 20px;
+        border-top: 1px solid var(--txt-dark);
+        border-bottom: 1px solid var(--txt-dark);
+    }
+
+    .question {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .answer {
+        display: none;
+        padding-top: 20px;
+    }
+
+    .faq-container:hover .answer {
+        display: block;
+    }
+
+/* #endregion FAQ  */
 
