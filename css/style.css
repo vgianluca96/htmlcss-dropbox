@@ -84,6 +84,7 @@
         color: var(--light-grey);
         text-decoration: none;
         padding: 5px 15px;
+        transition: all 300ms;
     }
 
     .a-btn:hover {
@@ -162,12 +163,16 @@
         margin: 20px 0;
     }
 
-    .cancel {
+    .heroimg-par .cancel {
         padding-bottom: 30px;
     }
 
-    .arrow {
+    .heroimg-par .arrow {
         font-size: 30px;
+    }
+
+    .heroimg-par .arrow a {
+        color: var(--dark);
     }
 
     .heroimg-img {
