@@ -660,6 +660,7 @@
         justify-content: space-between;
         padding: 5px;
         background-color: var(--light);
+        transition: background-color 300ms;
     }
 
     .login-container .btn.google {
@@ -670,7 +671,6 @@
 
     .login-container .btn.google:hover {
         background-color: #f1f7ff;
-        border: 1px solid #d2e3fc;
     }
 
     .login-container .btn.apple {
