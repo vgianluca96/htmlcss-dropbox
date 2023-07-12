@@ -31,8 +31,8 @@
 
     body {
         font-family: 'Open Sans', sans-serif;
-        font-size: 12px;
-        min-width: 1100px;
+        font-size: 14px;
+        min-width: 1400px;
     }
 
     header {
@@ -57,7 +57,7 @@
     }
 
     .container2 {
-        width: 70%;
+        width: 60%;
         max-width: 1000px;
         margin: auto;
     }
@@ -74,6 +74,11 @@
     .px-1 {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+    .px-20 {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .p-rel {
@@ -130,7 +135,7 @@
         display: inline-block;
         text-decoration: none;
         color: var(--dark);
-        padding: 16px 14px;
+        padding: 20px 20px;
     }
 
     .h-container .links a:hover {
@@ -158,7 +163,8 @@
     }
 
     .heroimg-par {
-        width: calc(100% /12 *3);
+        width: calc(100% /12 *4);
+        padding-right: 60px;
     }
 
     .heroimg-par .a-btn {
@@ -166,7 +172,7 @@
     }
 
     .heroimg-par .cancel {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     .heroimg-par .arrow {
@@ -178,12 +184,12 @@
     }
 
     .heroimg-img {
-        width: calc(100% /12 *9);
+        width: calc(100% /12 *8);
     }
 
     .heroimg-img img {
         width: 90%;
-        max-width: 650px;
+        max-width: 750px;
     }
 
 /* #endregion Hero Image */
@@ -191,13 +197,13 @@
 /* #region Piano business */
 
     .bsn-title {
-        padding-top: 100px;
+        padding-top: 150px;
         padding-bottom: 40px;
         font-size: 20px;
     }
 
     .radio-btn {
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 
     #mensile, #annuale {
@@ -216,12 +222,12 @@
     }
 
     .bsn-card {
-        width: calc(100% /12 *3.6);
+        width: calc(100% /12 *3.5);
     }
 
     .bsn-card2 {
         width: 100%;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     .bsn-card-title {
@@ -233,6 +239,10 @@
         border-top: 2px solid var(--light-grey);
         border-left: 1px solid var(--light-grey);
         border-right: 1px solid var(--light-grey);
+    }
+
+    .bsn-card-body {
+        height: 750px;
     }
 
     .bsn-card-body, .bsn-card-body2 {
@@ -301,17 +311,17 @@
     }
 
     .partner .img {
-        width: calc(100% /12 * 7);
+        width: calc(100% /12 * 8);
     }
 
     .partner img {
         width: 90%;
-        max-width: 450px;
+        max-width: 600px;
     }
 
     .partner .par {
-        width: calc(100% /12 * 5);
-        padding: 20px;
+        width: calc(100% /12 * 4);
+        padding-right: 40px;
     }
 
     .par div {
@@ -347,8 +357,8 @@
     }
 
     .operaz-item {
-        width: calc(100% /12 *3.6);
-        padding-bottom: 20px;
+        width: calc(100% /12 *3.5);
+        padding-bottom: 30px;
     }
 
     .operaz img {
@@ -401,7 +411,7 @@
     }
 
     .clients-card img {
-        width: 70%;
+        width: 60%;
         filter: invert(1);
     }
 
