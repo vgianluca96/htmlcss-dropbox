@@ -132,7 +132,7 @@
     }
 
     .h-container .links a:hover {
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid var(--dark);
     }
 
 /* #endregion Header */
@@ -519,6 +519,59 @@
     }
 
 /* #endregion FAQ  */
+
+/* #region FAQ con transizione 
+
+.faq {
+    padding: 100px 0;
+}
+
+.faq-title {
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.faq-container {
+    padding: 40px 0;
+    padding-right: 20px;
+    border-top: 1px solid var(--dark);
+    border-bottom: 1px solid var(--dark);
+    height: 98px;
+    transition: all 1s;
+}
+
+.question {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.answer {
+    opacity: 0;
+    padding-top: 20px;
+    transition: all 1s;
+}
+
+.faq-container:hover {
+    height: 150px;
+}
+
+.faq-container:hover .answer {
+    opacity: 1;
+}
+
+.fa-chevron-up {
+    display: none;
+}
+
+.faq-container:hover .fa-chevron-down {
+    display: none;
+}
+
+.faq-container:hover .fa-chevron-up {
+    display: block;
+}
+
+ #endregion FAQ  */
 
 /* #region Footer  */
 
