@@ -11,12 +11,13 @@
         --light: white;
         --dark: black;
         --light-grey: #dfdfe1;
+        --dark-grey: grey;
+        --purple: #61092d;
         --bg-btn: #0061ff;
         --bg-btn-light: #478cfa;
         --bg-heroimg: #b4d0e7;
         --txt-check: #0c64ff;
         --bg-designit: #a2d39b;
-        --bord-designit: #d1e9cd;
         --bg-arizona: #61082b;
         --bg-florida: #0093ce;
         --bg-topps: #ff1c1c;
@@ -242,6 +243,10 @@
         padding: 10px 0;
     }
 
+    .bsn-card-body em {
+        color: var(--dark-grey);
+    }
+
     .bsn-card-body ul {
         list-style: none;
         padding-top: 20px;
@@ -264,7 +269,7 @@
     }
 
     .bsn-card-body .fa-check {
-        color: var(--txt-check)
+        color: var(--txt-check);
     }
     
     .bsn-card-body2 .col1 {
@@ -334,10 +339,10 @@
     }
 
     .operaz {
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            padding-bottom: 100px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
     }
 
     .operaz-item {
@@ -389,7 +394,7 @@
 
     .clients-card {
         width: 50%;
-        aspect-ratio: 1;
+        aspect-ratio: 1/1;
         align-items: center;
         justify-content: center;
     }
@@ -433,7 +438,7 @@
     }
 
     .clients-item.designit-quote {
-        aspect-ratio: 1;
+        aspect-ratio: 1/1;
         padding: 30px;
         background-color: var(--bg-designit-quote);
     }
@@ -460,6 +465,7 @@
     .porta-dropbox-cont .title {
         width: 50%;
         font-size: 20px;
+        color: var(--purple);
     }
 
     .porta-dropbox-cont .a-btn {
@@ -607,7 +613,7 @@
     .language {
         width: 100%;
         padding-bottom: 40px;
-        color: var(--light);
+        color: var(--dark-grey);
     }
 
     .language hr {
