@@ -635,3 +635,25 @@
     }
 
 /* #endregion Footer  */
+
+
+/* #region login main */
+
+    .login-container {
+        width: 50%;
+        margin: auto;
+        padding: 200px 0;
+        background-color: orange;
+    }
+
+    .google-btn img {
+        width: 30px;
+    }
+
+    .apple-btn img {
+        width: 30px;
+    }
+
+
+
+/* #endregion login main */
