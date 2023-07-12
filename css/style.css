@@ -642,40 +642,59 @@
     .login-container {
         width: 50%;
         margin: auto;
-        padding: 100px 0;
+        padding: 50px 0;
         justify-content: center;
-        border: 1px solid black;
     }
 
-    .login-container .text {
-        padding-bottom: 10px;
+    .login-container .title {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .login-container button, .login-container input {
+        width: 350px;
     }
 
     .login-container .btn {
-        padding-bottom: 30px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: var(--light);
     }
 
-    .login-container button {
-        width: 300px;
-        align-items: center;
-        justify-content: center;
+    .login-container .btn.google {
+        margin-bottom: 30px;
+        border: 1px solid #d2e3fc;
+        border-radius: 4px;
+    }
+
+    .login-container .btn.google:hover {
+        background-color: #f1f7ff;
+        border: 1px solid #d2e3fc;
+    }
+
+    .login-container .btn.apple {
+        border: 1px solid #adadad;
+    }
+
+    .login-container .btn.apple:hover {
+        background-color: #dfdfdf;
+    }
+
+    .login-container .btn img {
+        width: calc(100% /12*1);
+    }
+
+    .login-container .btn div {
+        width: calc(100% /12*11);
     }
     
     .login-container input {
-        width: 300px;
         height: 30px;
         margin-bottom: 30px;
     }
 
-    .google-btn img {
-        width: 30px;
-    }
-
-    .apple-btn img {
-        width: 30px;
-    }
-
-    .line {
+    .login-container .line {
         align-items: center;
         position: relative;
         margin: 40px 0;
@@ -695,7 +714,22 @@
         transform: translatex(-50%);
     }
 
+    .login-container .email-label {
+        font-size: 12px;
+        color: var(--dark-grey);
+        padding-bottom: 10px;
+    }
 
+    .login-container .continua {
+        background-color: #0061fe;
+        color: var(--light);
+        font-weight: bold;
+        padding: 10px;
+        border: none;
+    }
 
+    .login-container .continua:hover {
+        background-color: #0057e5;
+    }
 
 /* #endregion login main */
