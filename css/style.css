@@ -668,6 +668,7 @@
         margin-bottom: 30px;
         border: 1px solid #d2e3fc;
         border-radius: 4px;
+        color: #4393fb;
     }
 
     .login-container .btn.google:hover {
@@ -676,6 +677,7 @@
 
     .login-container .btn.apple {
         border: 1px solid #adadad;
+        color: #615f5f;
     }
 
     .login-container .btn.apple:hover {
@@ -697,7 +699,8 @@
     }
 
     .line hr {
-        width: 100%;    
+        width: 100%;
+        border-color: var(--light-grey);
     }
 
     .line div {
@@ -726,6 +729,7 @@
         font-weight: bold;
         height: 40px;
         border: none;
+        transition: background-color 300ms;
     }
 
     .login-container .continua:hover {
